@@ -22,9 +22,10 @@ Cursor = DataBase.cursor()
 print("Add the table to drop")
 
 # Execute command to create the database
+table_name = "clouditems1"  # Replace with the table you want to 
 Cursor.execute("DROP TABLE IF EXISTS " + "variable")   #variable is the table name
 
-print("table shift dropped successfully")
+print("table cloudtems1 dropped successfully")
 # printing all the tables
 showtables()
 

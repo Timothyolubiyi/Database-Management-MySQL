@@ -21,9 +21,9 @@ def showtables():
 cursorObject = dataBase.cursor()
  
 # creating table 
-Records = """CREATE TABLE Clouditems (
+Records = """CREATE TABLE Clouditems1 (
              Id INT NOT NULL AUTO_INCREMENT,
-             Clouditems VARCHAR(255) NOT NULL,
+             Clouditems1 VARCHAR(255) NOT NULL,
              Cloudcategory VARCHAR(155) NOT NULL,
              PRIMARY KEY (Id)
                    )"""
